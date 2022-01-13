@@ -9,11 +9,14 @@ body {
     background-image: url(../img/wall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
     margin: 0;
     display: flex;
     flex: 1;
     justify-content: center;
-    align-items: center;
 }
 
 .clock {
@@ -22,7 +25,7 @@ body {
     width: 30vh;
     background-image: url(../img/clock.png);
     background-size: contain;
-    opacity: 0.8;
+    opacity: 0.9;
     border: 5px solid rgb(173, 19, 19);
     border-radius: 50%;
     margin-top: 10vh;
